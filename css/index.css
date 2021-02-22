@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -55,7 +55,36 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
 
+     color: black;
+   
+     width: 100%;
+     align-items: flex-end;
+   
+   
+
+}
+.logo{
+    padding-left: 1.5rem;
+}
+div.top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+  
+   padding-bottom: 2rem;
+   
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -76,7 +105,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+  
 }
 
 .top-content .text-container {
@@ -88,8 +117,110 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
 
+}
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2
+{
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -143,4 +274,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.container1{
+    display: flex;
+    margin-top: 4rem;
+}
+.container2{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+button{
+    border-radius: 4px;
 }
